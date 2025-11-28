@@ -1,0 +1,87 @@
+27/11/2025
+## procedure to initiate project
+
+    step 1 : npm create vite@project [project_name]
+    step 2 : select react
+    step 3 : select javascript+swc
+    step 4 : npm install                // install node module packages
+    step 5 : npm run dev
+
+    if you want to re-run your project mean 
+        npm run dev
+
+## react intro
+
+    What is React?
+
+    1) React is a JavaScript library (not a framework) developed by Facebook (Meta) for building user interfaces (UIs), especially Single Page Applications (SPAs).
+
+    2) It helps developers build reusable UI components that update efficiently when data changes.
+
+    Instead of reloading a whole webpage when something changes, React updates only the parts of the UI that need to change.
+
+    -------
+    Why do we need React?
+
+	It makes UI development faster, cleaner, and more efficient.
+
+	Provides a better user experience with smooth updates without page reloads.
+ 
+## structure
+
+    applaciation
+
+        node module             -- all installed dependencies..
+        puplic                  -- public assets  like img
+        src                     --main source folder
+            assets              -- images ,svg
+            components          -- UI parts
+            App.jsx             -- main app component
+            main.jsx            --  starting point of our Applications
+            index.css           -- global styleing file
+        .gitignore              -- tells git which files to ignore
+        package.json            -- Project info & dependencies
+        package-lock.json       -- it represent node modules dependencies and version
+        vite.config.json        -- vite configuration files
+        READM.module            -- project documentation.
+        
+
+## props
+
+    props is nothing but passing data from one component to 
+    another component.
+
+        declearing props variable
+        destructuring props
+
+28/11/2025
+
+## conditional rendering 
+
+    conditional rendering means showing or  hiding  parts of
+    UI based on some conditions .
+
+        ternary operator (condition? statement:statement)
+        logical operator (&& ,||, !)
+
+## list rendering 
+
+    Rendering multiple items dynamically using map()
+
+## hooks
+## useState()
+
+    useState is a react hook that allows you to add state (
+    data that can change over time) to a functional components.
+
+    normally , in js functionality , variable disappear after functional runs. 
+    but with usestate , react remembers values between re-renders.
+
+    syntex:
+
+    const[state,setState]=usestate(initial-state)
+
+    state ---the current value of the state variable
+    setState --- a functional that update the state
+    initial-state--- the starting value of the state
+     

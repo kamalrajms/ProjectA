@@ -84,4 +84,13 @@
     state ---the current value of the state variable
     setState --- a functional that update the state
     initial-state--- the starting value of the state
-     
+    
+2/12/2025
+
+## styleing in react
+
+    Global styleing  -- index.css, app.css
+    external styleing
+    inline styleing
+    module.css styleing
+    object way styleing 

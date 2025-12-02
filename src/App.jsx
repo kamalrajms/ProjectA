@@ -3,6 +3,8 @@ import Greeting from "./Greeting";
 import ConditionalRendering from "./Component/ConditionalRendering";
 import ListRendering from "./Component/ListRendering";
 import UseStateHook from "./Component/UseStateHook";
+import ObjectWayStyle from "./Component/ObjectWayStyle";
+import DarkMode from "./Component/DarkMode";
 
 export default function App() {
   const name = "kumar";
@@ -11,6 +13,8 @@ export default function App() {
 
   return (
     <div>
+      <DarkMode />
+      <ObjectWayStyle />
       <UseStateHook />
       <ListRendering />
       <ConditionalRendering />

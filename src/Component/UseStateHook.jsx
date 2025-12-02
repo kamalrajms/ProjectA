@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./UseStateHook.css";
 
 export default function UseStateHook() {
   const [count, setCount] = useState(0);
@@ -7,7 +8,7 @@ export default function UseStateHook() {
   const [user, setUser] = useState(true);
 
   return (
-    <div>
+    <div className="usestate">
       <nav>
         {user ? <p>Welcome backe..</p> : <p>please login</p>}
         <button onClick={() => setUser(!user)}>

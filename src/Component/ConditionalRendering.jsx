@@ -3,7 +3,7 @@ import React from "react";
 export default function ConditionalRendering() {
   const user = true;
   return (
-    <div>
+    <div className="Conditional">
       {/* ternary operator */}
       {user ? <p>welcome Home</p> : <p>please login..!</p>}
       {/* logical operator */}
@@ -15,6 +15,7 @@ export default function ConditionalRendering() {
           assumenda earum excepturi.
         </p>
       )}
+      <div className="box">iewbweyfbed</div>
     </div>
   );
 }

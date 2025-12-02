@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+.box {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border: 10px solid black;
+  background-color: aqua;
+  /* box-sizing: border-box; */
+}
+.Conditional {
+  background-color: blue;
+  color: azure;
+}
+.list {
+  background-color: red;
+  color: white;
+}
+.usestate {
+  padding: 50px;
+  margin: 20px;
+}
+
+.greeting {
+  padding: 100px;
+  margin: 20px;
+}

@@ -11,7 +11,7 @@ export default function ListRendering() {
 //   console.log(users.length);
 
   return (
-    <div>
+    <div className="list">
       <h2>Fruits name</h2>
       <ul>
         {fruits.map((name, ind) => (

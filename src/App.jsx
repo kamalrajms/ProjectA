@@ -5,6 +5,9 @@ import ListRendering from "./Component/ListRendering";
 import UseStateHook from "./Component/UseStateHook";
 import ObjectWayStyle from "./Component/ObjectWayStyle";
 import DarkMode from "./Component/DarkMode";
+import Forms from "./Component/Forms";
+import MultipleForm from "./Component/MultipleForm";
+import ConditionForm from "./Component/ConditionForm";
 
 export default function App() {
   const name = "kumar";
@@ -13,6 +16,9 @@ export default function App() {
 
   return (
     <div>
+      <ConditionForm />
+      <MultipleForm />
+      <Forms />
       <DarkMode />
       <ObjectWayStyle />
       <UseStateHook />

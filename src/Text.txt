@@ -1,3 +1,13 @@
+.com-- commercial
+.org -- organation
+.net -- Network
+.edu --edu
+.in -- india
+.gov -- gov
+.mil -- military
+.co-- commpany
+
+
 27/11/2025
 ## procedure to initiate project
 

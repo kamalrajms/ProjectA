@@ -104,3 +104,40 @@
     inline styleing
     module.css styleing
     object way styleing 
+
+3/12/2025
+
+## form control useing usestate
+
+4/12/2025
+
+## useEffect()
+
+    in react ,useEffect is a hook that lets you perform 
+    side Effect in functional component.
+
+    Side Effect are the task that happends outside the 
+    normal react rendering process ,like...
+            Fetching data from API
+            Updating the browser  DOM manually
+            Statring/stoping timers
+
+
+    synteX:
+
+        useEffect(()=>{
+            //code ...
+        },[dependency1,dependency2,...])
+        
+5/12/2025
+
+## useRef()
+
+    UseRef is a react hook  that gives you a box (.current) you can store anything in-
+    like-- num,str,object,function,even DOM element.
+
+    That value persists between renders.
+
+    Updating it does not cause your component to re-rendering
+
+    {current:value}

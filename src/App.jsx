@@ -8,6 +8,11 @@ import DarkMode from "./Component/DarkMode";
 import Forms from "./Component/Forms";
 import MultipleForm from "./Component/MultipleForm";
 import ConditionForm from "./Component/ConditionForm";
+import UseEffectHook from "./Component/UseEffectHook";
+import UseEffectTimer from "./Component/UseEffectTimer";
+import StopWatchTimer from "./Component/StopWatchTimer";
+import APIuseeffect from "./Component/APIuseeffect";
+import UseRefHook from "./Component/UseRefHook";
 
 export default function App() {
   const name = "kumar";
@@ -16,6 +21,11 @@ export default function App() {
 
   return (
     <div>
+      <UseRefHook />
+      <APIuseeffect />
+      <StopWatchTimer />
+      <UseEffectTimer />
+      <UseEffectHook />
       <ConditionForm />
       <MultipleForm />
       <Forms />

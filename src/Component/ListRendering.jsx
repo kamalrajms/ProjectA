@@ -4,9 +4,9 @@ export default function ListRendering() {
   const fruits = ["apple", "banana", "mango"];
 
   const users = [
-    // { id: 1, name: "Sai" },
-    // { id: 2, name: "Kumar" },
-    // { id: 3, name: "Dhanu" },
+    { id: 1, name: "Sai" },
+    { id: 2, name: "Kumar" },
+    { id: 3, name: "Dhanu" },
   ];
 //   console.log(users.length);
 

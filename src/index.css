@@ -45,3 +45,12 @@
   color: aliceblue;
   cursor: pointer;
 }
+
+.light {
+  background-color: #fff;
+  padding: 50px;
+}
+.black {
+  background-color: #333;
+  padding: 50px;
+}

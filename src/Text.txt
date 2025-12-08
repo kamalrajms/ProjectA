@@ -141,3 +141,23 @@
     Updating it does not cause your component to re-rendering
 
     {current:value}
+
+
+8/12/2025
+
+## useContext()
+
+    Passing Data from aparent component down to deep nested child  component is annoying.
+
+    normally,you'd have to pass props manually through each level(called props drilling).
+
+    useContext lets you skip all the middle component and share  data directly.
+
+            create a context
+            Provides a value
+            Consume the value
+               
+
+## UseReducer()
+
+    co

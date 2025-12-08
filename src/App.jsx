@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext, createContext, useState } from "react";
 import Greeting from "./Greeting";
 import ConditionalRendering from "./Component/ConditionalRendering";
 import ListRendering from "./Component/ListRendering";
@@ -13,14 +13,30 @@ import UseEffectTimer from "./Component/UseEffectTimer";
 import StopWatchTimer from "./Component/StopWatchTimer";
 import APIuseeffect from "./Component/APIuseeffect";
 import UseRefHook from "./Component/UseRefHook";
+import First from "./Context/First";
+import GreetingHello from "./Context2/GreetingHello";
+
+export const Pass = createContext();
 
 export default function App() {
   const name = "kumar";
   const age = 22;
   const city = "chennai";
 
+  const [mode, setMode] = useState("light");
+
   return (
     <div>
+      <Pass.Provider value={{mode,setMode,age}}>
+        <GreetingHello />
+      </Pass.Provider>
+
+      <div style={{ border: "2px solid black", padding: "20px" }}>
+        App component -- {name}
+        <Pass.Provider value={name}>
+          <First />
+        </Pass.Provider>
+      </div>
       <UseRefHook />
       <APIuseeffect />
       <StopWatchTimer />

@@ -157,7 +157,27 @@
             Provides a value
             Consume the value
                
+9/12/2025
 
 ## UseReducer()
 
-    co
+    Syntex: const [state,dispatch]=UseReducer(reducerFunction,InitialState)
+
+    state-- current state like (usestate)
+    dispatch(action)-- A function to tell the  reducer what to do
+    reducerFunction(state,action)-- the logical that return a new state
+    InitialState-- starting values
+
+## useCallback()
+
+    Every time a component re-rendering,
+    it creates a brand new copy of every function inside it.
+
+    Even if the function's code looks the same,
+    React sees it as different because it's new object in memory.
+
+    syntex: 
+        const variable_name= useCallback(()=>{
+            //code
+        },[dependency1,dependency2....])
+

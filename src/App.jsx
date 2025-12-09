@@ -15,6 +15,9 @@ import APIuseeffect from "./Component/APIuseeffect";
 import UseRefHook from "./Component/UseRefHook";
 import First from "./Context/First";
 import GreetingHello from "./Context2/GreetingHello";
+import UseReducerHook from "./Component/UseReducerHook";
+import UseReducerHook2 from "./Component/UseReducerHook2";
+import UceCallback from "./Component/UceCallback";
 
 export const Pass = createContext();
 
@@ -27,7 +30,10 @@ export default function App() {
 
   return (
     <div>
-      <Pass.Provider value={{mode,setMode,age}}>
+      <UceCallback />
+      <UseReducerHook2 />
+      <UseReducerHook />
+      <Pass.Provider value={{ mode, setMode, age }}>
         <GreetingHello />
       </Pass.Provider>
 

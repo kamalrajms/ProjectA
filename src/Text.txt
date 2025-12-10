@@ -181,3 +181,42 @@
             //code
         },[dependency1,dependency2....])
 
+10/12/2025
+
+## Routing in react
+
+    Routing means navigate between different pages in web application 
+    without refreshing the browser.
+    In traditional websites ,clicking a link reloads the whole page.
+    In react  (SAP) ,routing Lets us changes the view without reloading.
+
+        Better performance
+        Smooth user experience
+        Control over the navigation pages
+
+    commend:  npm install react-router-dom
+
+    Structuer of routing dom
+
+            <bowserRouter>
+            <Routes>
+            <Route path="adderss path"   element={<Component/>}/>
+            <Route path="adderss path"   element={<Component/>}/>
+            <Route path="adderss path"   element={<Component/>}/>
+            </Routes>
+            </bowserRouter>
+
+    bowserRouter
+        It is the main wrapper component for routing in react app.
+        It enables  navigate using the browser url in react app (history Url)
+
+    Routes
+        It Contains all the <ROute/> component.
+        It tells react Router which component is to showing
+        Only one route will show at a time.
+
+    Route
+        Defines a specific URL path and which component should load for that path.
+
+
+

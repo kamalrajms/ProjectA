@@ -183,7 +183,7 @@
 
 10/12/2025
 
-## Routing in react
+## Routing in react and nested routing 
 
     Routing means navigate between different pages in web application 
     without refreshing the browser.
@@ -218,5 +218,23 @@
     Route
         Defines a specific URL path and which component should load for that path.
 
+11/12/2025
+
+## Useparam() -- routing dom
+
+        useParams() is a React Router hook that lets you read dynamic values from the URL path (not from the query string).
+
+		It’s commonly used when you have routes with dynamic segments like /users/:id or /products/:productId.
 
 
+## useNavigate() -- routing dom
+
+    useNavigate is used to move from one component to 
+    another component by useing functionality.
+
+
+## useId ()
+
+    useId() is areact hook that creates a unique and stable id for each 
+    component instance.
+    

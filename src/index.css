@@ -63,3 +63,30 @@
   justify-content: space-evenly;
   align-items: center;
 }
+
+/* chat appp */
+.chatApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat {
+  margin-top: 50px;
+  width: 35%;
+  background-color: blueviolet;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.chat > textarea,
+.chat > input,
+.chat > button {
+  width: 100%;
+  padding: 6px;
+}

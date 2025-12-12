@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import StopWatchTimer from "../Component/StopWatchTimer";
 import { useNavigate } from "react-router-dom";
+import APIintegration from "../Component/APIintegration";
 
 export default function Home() {
   const page = useNavigate();
@@ -14,6 +15,8 @@ export default function Home() {
   }, [count]);
   return (
     <div>
+      
+      <APIintegration />
       <h1>Home component</h1>
       <StopWatchTimer />
       <button onClick={() => page("/Service")}>Move to Service</button>

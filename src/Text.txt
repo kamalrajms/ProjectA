@@ -242,3 +242,21 @@
 
 ## API integration
 
+## chat applaciation
+
+15/12/2025
+
+## custom hooks
+
+    A custom hook is  a reusable function in react that contains logic 
+    using hooks (link usestate,useEffect...)
+
+    It allows you to share and reuse statful logic between multiple 
+    component without represent code.
+
+
+## axios    --api integration
+
+    npm install axios
+
+## xo -game
